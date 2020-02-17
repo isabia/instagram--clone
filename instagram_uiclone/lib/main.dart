@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: Feed(),
+      home: new Feed(),
       theme: ThemeData(primaryColor: Colors.white),
       debugShowCheckedModeBanner: false,
     );

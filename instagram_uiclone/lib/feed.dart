@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'feedbody.dart';
+
 class Feed extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,6 +14,7 @@ class Feed extends StatelessWidget {
           actions: <Widget>[
             IconButton(icon: Icon(Icons.send), onPressed: () {}),
           ]),
+      body: new FeedBody(),
       bottomNavigationBar: Container(
         height: 55.0,
         child: BottomAppBar(
