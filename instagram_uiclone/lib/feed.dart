@@ -16,7 +16,7 @@ class Feed extends StatelessWidget {
           ]),
       body: new FeedBody(),
       bottomNavigationBar: Container(
-        height: 55.0,
+        height: 50.0,
         child: BottomAppBar(
             elevation: 1.0,
             color: new Color(0xfff8faf8),
