@@ -12,6 +12,22 @@ class Feed extends StatelessWidget {
           actions: <Widget>[
             IconButton(icon: Icon(Icons.send), onPressed: () {}),
           ]),
+      bottomNavigationBar: Container(
+        height: 55.0,
+        child: BottomAppBar(
+            elevation: 1.0,
+            color: new Color(0xfff8faf8),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                IconButton(icon: Icon(Icons.home), onPressed: () {}),
+                IconButton(icon: Icon(Icons.search), onPressed: () {}),
+                IconButton(icon: Icon(Icons.add_box), onPressed: () {}),
+                IconButton(icon: Icon(Icons.favorite), onPressed: () {}),
+                IconButton(icon: Icon(Icons.account_box), onPressed: () {}),
+              ],
+            )),
+      ),
     );
   }
 }
