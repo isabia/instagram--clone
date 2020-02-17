@@ -35,7 +35,7 @@ class _BodyListState extends State<BodyList> {
                                 height: 40.0,
                                 width: 40.0,
                                 decoration: new BoxDecoration(
-                                    //shape: BoxShape.circle,
+                                    shape: BoxShape.circle,
                                     image: new DecorationImage(
                                         fit: BoxFit.fill,
                                         image: new NetworkImage(
