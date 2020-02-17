@@ -7,7 +7,9 @@ class FeedBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        BodyList(),
+        Flexible(
+          child: BodyList(),
+        )
       ],
     );
   }
